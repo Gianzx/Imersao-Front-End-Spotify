@@ -81,7 +81,7 @@ A aplicação estará disponível em [http://localhost:3003](http://localhost:30
 ## 📸 Preview
 
 Aqui está uma visualização do projeto:
-[preview](preview/preview.png)
+![preview](preview/preview.png)
 
 
 
