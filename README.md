@@ -37,15 +37,6 @@ Antes de rodar a aplicação, é necessário ter os seguintes requisitos instala
 
 ## 🔧 Como Executar o Projeto
 
-### Passo 3.1: Iniciar o JSON Server
-Se o projeto utilizar um servidor JSON para armazenar os dados, inicie-o com o comando:
-
-```bash
-npm install -g json-server
-json-server --watch db.json --port 3017
-```
-
-Isso disponibilizará os dados em `http://localhost:3017`. 
 
 ### Passo 3.2: Iniciar a Aplicação
 
@@ -66,7 +57,18 @@ Instale as dependências necessárias para rodar o projeto:
 npm install
 ```
 
-### Passo 3: Iniciar a Aplicação
+### Passo 4: Iniciar o JSON Server
+Se o projeto utilizar um servidor JSON para armazenar os dados, inicie-o com o comando:
+
+```bash
+npm install -g json-server
+json-server --watch db.json --port 3017
+```
+
+Isso disponibilizará os dados em `http://localhost:3017`. 
+
+
+### Passo 5: Iniciar a Aplicação
 
 Execute o comando abaixo para iniciar a aplicação no modo de desenvolvimento:
 
@@ -79,6 +81,7 @@ A aplicação estará disponível em [http://localhost:3003](http://localhost:30
 ## 📸 Preview
 
 Aqui está uma visualização do projeto:
+![preview](preview/preview.jpg)
 
 
 
