@@ -1,0 +1,185 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Foo Fighters",
+      "genre": "Rock",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15"
+    },
+    {
+      "id": 2,
+      "name": "Michael Jackson",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/ab676161000051740e08ea2c4d6789fbf5cbe0aa"
+    },
+    {
+      "id": 3,
+      "name": "Emicida",
+      "genre": "Hip Hop",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174908b4b4bc90e1518b68b4068"
+    },
+    {
+      "id": 4,
+      "name": "Chitãozinho e Xororó",
+      "genre": "Sertanejo",
+      "urlImg": "https://i.scdn.co/image/ab676161000051744606c59411c57f7b49588be4"
+    },
+    {
+      "id": 5,
+      "name": "Mc Coringa",
+      "genre": "Funk",
+      "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56"
+    },
+    {
+      "id": 6,
+      "name": "Arlindo Cruz",
+      "genre": "Samba",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839"
+    },
+    {
+      "id": 7,
+      "name": "Caetano Veloso",
+      "genre": "MPB",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757"
+    },
+    {
+      "id": 8,
+      "name": "Olivia Rodrigo",
+      "genre": "POP",
+      "urlImg": "https://lastfm.freetls.fastly.net/i/u/ar0/bae4f4c09e06e44aefa4e20567f0b1fd.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Taylor Swift",
+      "genre": "Pop",
+      "urlImg": "https://i.pinimg.com/736x/d4/f1/b2/d4f1b256aa038abfd7e1392a1f4dd99c.jpg"
+    },
+
+    {
+      "id": 10,
+      "name": "M4rkim",
+      "genre": "Rap",
+      "urlImg": "https://i.scdn.co/image/ab6761610000e5eb8dcf9861401c60e8dafde89c"
+    },
+    {
+      "id": 11,
+      "name": "Cristiano Araújo",
+      "genre": "Sertanejo",
+      "urlImg": "https://th.bing.com/th/id/OIP.BeqqJutfY0yzqSsrKccQ8QHaHV?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 12,
+      "name": "Marília Mendonça",
+      "genre": "Sertanejo",
+      "urlImg": "https://th.bing.com/th/id/OIP.80VGWI-aqufDGxgLWzGtPwHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 13,
+      "name": "Beyoncé",
+      "genre": "Pop",
+      "urlImg": "https://i.pinimg.com/736x/74/b2/d2/74b2d28ddd687fb2c78a1ebdb3d923ff.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Adele",
+      "genre": "Pop",
+      "urlImg": "https://i.pinimg.com/736x/c8/d2/0d/c8d20df3785bbe21917d12a51b78d121.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Drake",
+      "genre": "Hip Hop",
+      "urlImg": "https://i.pinimg.com/736x/b3/7d/26/b37d261a35f3efd588e60e27053ffdbd.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Justin Bieber",
+      "genre": "Pop",
+      "urlImg": "https://i.pinimg.com/736x/e4/26/c7/e426c7fd99ceee788d0cbb1bcb7c74c1.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Shakira",
+      "genre": "Pop",
+      "urlImg": "https://i.pinimg.com/736x/e7/b0/c9/e7b0c92cded014cc3e4fc875dc1756db.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Luan Santana",
+      "genre": "Sertanejo",
+      "urlImg": "https://i.pinimg.com/736x/b9/58/12/b958126784833e746eaab313f4deef7f.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Anitta",
+      "genre": "Funk",
+      "urlImg": "https://i.pinimg.com/736x/8f/83/75/8f83752a08901fe14729882e95ed4259.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Gilberto Gil",
+      "genre": "MPB",
+      "urlImg": "https://i.pinimg.com/736x/ec/46/87/ec4687c25b6dd818331a7b7a22d4fd29.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Zeca Pagodinho",
+      "genre": "Samba",
+      "urlImg": "https://i.pinimg.com/736x/bd/da/07/bdda076991c33a8c37bcddcd58075a0c.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Ariana Grande",
+      "genre": "Pop",
+      "urlImg": "https://i.pinimg.com/736x/5b/03/54/5b035482641a547625808499c89447ce.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Billie Eilish",
+      "genre": "Pop",
+      "urlImg": "https://i.pinimg.com/736x/74/70/71/7470716b8beed9bf30c45eb443411af2.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Anirap",
+      "genre": "Rap",
+      "urlImg": "https://i.pinimg.com/736x/3d/ff/32/3dff3208ce3106bb4afb8175c5ffb03d.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Manoel Gomes",
+      "genre": "Tudo",
+      "urlImg": "https://i.pinimg.com/736x/60/e0/df/60e0df5a36ff1c4d081fbeb3cef30d4b.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Sabrina Carpenter",
+      "genre": "POP",
+      "urlImg": "https://i.pinimg.com/736x/32/cd/12/32cd12b893451508131e2316e3282d91.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Mc Livinho",
+      "genre": "Funk",
+      "urlImg": "https://i.pinimg.com/736x/ad/df/bc/addfbc434096f4380084def1808a93b7.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Jão",
+      "genre": "POP Nacional",
+      "urlImg": "https://i.pinimg.com/736x/fc/9d/53/fc9d533e60ab8b4e8fcdc5e555d62571.jpg"
+    },
+    {
+      "id": 32,
+      "name": "The Weeknd",
+      "genre": "POP",
+      "urlImg": "https://i.pinimg.com/736x/9e/11/7f/9e117fb800d99157c91a2344c5321ea6.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Bruno Mars",
+      "genre": "POP",
+      "urlImg": "https://i.pinimg.com/736x/d6/0a/14/d60a149cc9e327e08cbda7549e4cbad2.jpg"
+    }
+    ]
+}

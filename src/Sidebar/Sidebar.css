@@ -1,0 +1,197 @@
+/* Estilos gerais para o corpo da página */
+body{
+    background-color: rgba(18, 18, 18, 0.7); /* Cor de fundo escura com 30% de opacidade */
+    font-family: var(--font-dm-sans); /* Define a fonte da página como a variável 'font-dm-sans' */
+}
+
+/* Estilos para a barra lateral fixa (sidebar) */
+.sidebar{
+    position:fixed; /* A posição é fixa, então a barra fica no mesmo lugar enquanto a página rola */
+    top:0; /* Coloca a barra no topo da tela */
+    left:0; /* Coloca a barra na margem esquerda da tela */
+    bottom:0; /* Coloca a barra na margem inferior da tela, ocupando toda a altura */
+    padding:12px; /* Dá um espaçamento interno de 12px em todos os lados */
+    width:300px; /* Define a largura da barra lateral como 300px */
+    background-color: rgba(18, 18, 18, 0.7); /* Cor de fundo escura com 70% de opacidade */
+    
+}
+
+/* Estilo da navegação dentro da sidebar */
+.sidebar__navigation{
+    background-color: rgba(18, 18, 18, 0.7); /* Cor de fundo escura com 30% de opacidade */
+    border-radius:8px; /* Cantos arredondados */
+    padding:16px 0 0 0px; /* Espaçamento interno (paddings) para ajustar a posição do conteúdo */
+}
+
+/* Estilo da logo dentro da sidebar */
+.logo{
+    display:flex; /* Usa flexbox para alinhar os itens de forma flexível */
+    border-radius:8px; /* Arredonda os cantos da logo */
+    padding:16px 0 0 16px; /* Espaçamento interno para a logo */
+}
+/* Estilo da imagem da logo */
+.sidebar__navigation .logo img{
+    width:80px; /* Define a largura da imagem da logo como 80px */
+}
+
+/* Estilo da lista de links dentro da sidebar */
+.sidebar nav ul{
+    list-style-type: none; /* Remove o marcador da lista */
+    margin-top: 20px; /* Espaço acima da lista */
+    padding:0 20px 10px 20px; /* Espaçamento nas laterais da lista */
+    text-decoration: none;
+    marker: none;
+}
+
+/* Estilo de cada item de lista (link) */
+.sidebar ul li{
+    text-decoration: none; /* Remove o sublinhado do link */
+    padding: 10px 0; /* Espaçamento interno (padding) de 10px em cima e embaixo de cada item */
+    marker: none;
+}
+
+/* Estilo dos links da sidebar */
+.sidebar nav ul li a{
+    color: #b3b3b3; /* Cor do texto do link (cinza claro) */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-weight: 600; /* Deixa o texto em negrito */
+    font-size: 14px; /* Define o tamanho da fonte como 14px */
+    text-decoration: none;
+    marker: none;
+}
+
+/* Estilos para a seção de biblioteca dentro da sidebar */
+.library{
+    background-color: rgba(18, 18, 18, 0.7); /* Cor de fundo escura com 30% de opacidade */
+    border-radius:8px; /* Arredonda os cantos da seção */
+    display:flex; /* Usa flexbox para alinhar os itens de forma flexível */
+    justify-content: space-between; /* Espaça os itens igualmente entre o início e o fim */
+    flex-direction: column; /* Alinha os itens em uma coluna */
+    padding:4px 8px; /* Espaçamento interno (padding) */
+    color:#b3b3b3; /* Cor do texto (cinza claro) */
+    font-weight: 600; /* Texto em negrito */
+    font-size:14px; /* Tamanho da fonte */
+    margin-top: 10px; /* Espaço acima da seção */
+}
+
+/* Estilos para o conteúdo da seção de biblioteca */
+.library .library__content{
+    display:flex; /* Usa flexbox para os itens dentro da seção */
+    justify-content: space-between; /* Espaça os itens igualmente entre o início e o fim */
+}
+
+/* Estilo dos botões dentro da biblioteca */
+.library .library__button{
+    display:flex; /* Usa flexbox para alinhar os itens dentro do botão */
+    margin-right: 10px; /* Espaço à direita do botão */
+    color:#b3b3b3; /* Cor do texto (cinza claro) */
+    background-color: transparent; /* Fundo transparente */
+    border:0px; /* Sem borda */
+    font-size: 14px; /* Tamanho da fonte do botão */
+    font-weight: 700; /* Texto em negrito */
+    text-align: center; /* Alinha o texto ao centro */
+    text-decoration: none; /* Remove o sublinhado */
+    text-transform: none; /* Não altera a transformação do texto (não deixa maiúsculo) */
+    padding:20px 10px; /* Espaçamento interno do botão */
+}
+
+/* Estilos para o ícone dentro do botão */
+.library .library__button .fa{
+    font-size:20px; /* Tamanho do ícone */
+    font-weight: 300; /* Peso da fonte do ícone (mais fino) */
+    color:#b3b3b3; /* Cor do ícone (cinza claro) */
+    margin-right: 10px; /* Espaço à direita do ícone */
+    padding-right:8px; /* Espaço à direita do ícone dentro do botão */
+}
+
+/* Estilo para o ícone de adição (+) */
+.library .library__content .fa-plus{
+    margin: 24px 10px; /* Espaço ao redor do ícone de adição */
+}
+
+/* Estilos para a seção de playlist */
+.section-playlist{
+    display:flex; /* Usa flexbox para alinhar os itens de forma flexível */
+    align-items: flex-start; /* Alinha os itens no topo */
+    justify-content: space-between; /* Espaça os itens igualmente entre o início e o fim */
+    gap:20px; /* Espaço entre os itens */
+    background-color: rgba(36, 36, 36, 0.7); /* Cor de fundo da seção com 70% de opacidade */
+    color:#b3b3b3; /* Cor do texto */
+    font-weight: 600; /* Texto em negrito */
+    font-size: 14px; /* Tamanho da fonte */
+    margin: 8px 0; /* Espaço acima e abaixo da seção */
+    padding:16px 20px; /* Espaçamento interno da seção */
+    border-radius:10px; /* Canto arredondado da seção */
+}
+
+/* Estilos para o conteúdo dentro da seção de playlist */
+.section-playlist .section-playlist__content{
+    display:flex; /* Usa flexbox para alinhar os itens dentro da seção */
+    flex-direction: column; /* Alinha os itens em coluna */
+}
+
+/* Estilos para o texto dentro da seção de playlist */
+.section-playlist__content .text{
+    padding-bottom:14px; /* Espaço abaixo do texto */
+    color:#FFF; /* Cor do texto (branco) */
+}
+
+/* Título dentro da seção de playlist */
+.section-playlist__content .title{
+    font-weight: 700; /* Texto em negrito */
+}
+
+/* Subtítulo dentro da seção de playlist */
+.section-playlist__content .subtitle{
+    font-weight: 500; /* Texto em peso normal */
+    font-size: 12px; /* Tamanho da fonte do subtítulo */
+}
+
+/* Estilos para o botão dentro da seção de playlist */
+.section-playlist__content .section-playlist__button{
+    display: flex; /* Usa flexbox para o conteúdo do botão */
+    justify-content: center; /* Centraliza o texto dentro do botão */
+    background-color: #FFF; /* Fundo branco */
+    color:#000; /* Cor do texto (preto) */
+    border-radius: 20px; /* Arredonda os cantos do botão */
+    font-size: 12px; /* Tamanho da fonte */
+    font-weight: 700; /* Texto em negrito */
+    text-decoration:none; /* Remove o sublinhado do botão */
+    text-transform: none; /* Não transforma o texto em maiúsculas */
+    padding:10px; /* Espaçamento interno do botão */
+    margin-top: 12px; /* Espaço acima do botão */
+    border:0; /* Remove a borda do botão */
+    width: 113px; /* Largura do botão */
+}
+
+/* Estilo para o link de Cookies na sidebar */
+.sidebar .cookies{
+    margin:25px 20px; /* Espaçamento ao redor do link */
+}
+
+/* Estilo do link de Cookies */
+.sidebar .cookies a{
+    color:#b3b3b3; /* Cor do texto do link (cinza claro) */
+    font-weight: 500; /* Peso da fonte (normal) */
+    font-size:10px; /* Tamanho da fonte do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estilo do link de Cookies ao passar o mouse */
+.sidebar .cookies a:hover{
+    text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
+}
+
+/* Estilo para o botão de seleção de idioma */
+.languages .languages__button{
+    align-items: center; /* Alinha os itens dentro do botão */
+    background-color: transparent; /* Fundo transparente */
+    border: 1px solid #878787; /* Borda cinza */
+    color:#FFF; /* Cor do texto (branco) */
+    font-weight: bold; /* Texto em negrito */
+    cursor:pointer; /* Mostra um cursor de mão ao passar o mouse */
+    width: 170px; /* Largura do botão */
+    margin:8px; /* Espaço ao redor do botão */
+    padding:8px; /* Espaçamento interno do botão */
+    border-radius:20px; /* Borda arredondada do botão */
+}
