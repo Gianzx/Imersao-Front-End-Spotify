@@ -62,6 +62,7 @@ O projeto utiliza um servidor JSON para armazenar os dados, inicie-o com o coman
 
 ```bash
 npm install -g json-server
+cd Imersao-Front-End-Spotify
 json-server --watch db.json --port 3017
 ```
 
