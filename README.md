@@ -1,9 +1,8 @@
-
 # 🎵 Projeto de Recriação do Spotify com Tema Outer Banks
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+
+
 
 ## 💡 Sobre o Projeto
 
@@ -18,6 +17,8 @@ Este projeto foi desenvolvido durante uma imersão de Front-End na Alura, com o 
 - **Layout Adaptável:** A interface se ajusta de maneira fluida a diferentes tamanhos de tela, mantendo a funcionalidade.
 
 ## 🛠️ Tecnologias Utilizadas
+
+- **JSON Server**: Para simular uma API e servir os dados dos artistas.
 
 - **React**: Para a construção da interface interativa e componentizada.
 - **JavaScript**: Para a lógica de programação e interatividade do site.
@@ -36,7 +37,20 @@ Antes de rodar a aplicação, é necessário ter os seguintes requisitos instala
 
 ## 🔧 Como Executar o Projeto
 
+### Passo 3.1: Iniciar o JSON Server
+Se o projeto utilizar um servidor JSON para armazenar os dados, inicie-o com o comando:
+
+```bash
+npm install -g json-server
+json-server --watch db.json --port 3017
+```
+
+Isso disponibilizará os dados em `http://localhost:3017`. 
+
+### Passo 3.2: Iniciar a Aplicação
+
 ### Passo 1: Clonar o Repositório
+
 Clone o repositório do GitHub para o seu computador:
 
 ```bash
@@ -45,6 +59,7 @@ cd Imersao-Front-End-Spotify
 ```
 
 ### Passo 2: Instalar Dependências
+
 Instale as dependências necessárias para rodar o projeto:
 
 ```bash
@@ -52,6 +67,7 @@ npm install
 ```
 
 ### Passo 3: Iniciar a Aplicação
+
 Execute o comando abaixo para iniciar a aplicação no modo de desenvolvimento:
 
 ```bash
@@ -64,7 +80,7 @@ A aplicação estará disponível em [http://localhost:3003](http://localhost:30
 
 Aqui está uma visualização do projeto:
 
-![preview](preview/preview.jpg)
+
 
 ## 🤝 Contribuindo
 
@@ -75,3 +91,6 @@ Se você deseja contribuir para este projeto, siga as etapas abaixo:
 3. **Commit** suas alterações (`git commit -am 'Adicionando uma nova feature'`).
 4. **Push** para a branch (`git push origin minha-feature`).
 5. Envie um **pull request**.
+
+falta o json server 
+
