@@ -59,6 +59,7 @@ npm install
 
 ### Passo 4: Iniciar o JSON Server
 O projeto utiliza um servidor JSON para armazenar os dados, inicie-o com o comando:
+então em outro terminal digite isso :
 
 ```bash
 npm install -g json-server
@@ -82,7 +83,7 @@ A aplicação estará disponível em [http://localhost:3003](http://localhost:30
 ## 📸 Preview
 
 Aqui está uma visualização do projeto:
-![preview](preview/preview.png)
+![preview](preview/previeww.png)
 
 
 
