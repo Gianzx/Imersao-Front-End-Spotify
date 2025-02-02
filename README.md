@@ -97,5 +97,3 @@ Se você deseja contribuir para este projeto, siga as etapas abaixo:
 4. **Push** para a branch (`git push origin minha-feature`).
 5. Envie um **pull request**.
 
-falta o json server 
-
